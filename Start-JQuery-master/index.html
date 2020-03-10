@@ -5,58 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Helden</title>
     <link rel="stylesheet" href="style.css">
+<script>
+function not1(){
+    notif({
+        msg: "<b>Success:</b> Dit zijn mijn helden",
+        type: "success"
+    });
+}
+</script>
 </head>
 <body lang="nl">
 <header>
     <h1>Mijn helden</h1>
 </header>
     <main>
-        <section id="tim">
+        <section id="Juice">
             <h3>Juice WRLD</h3>
             <figure class="portret">
-                <img src="img/held1.jpg" alt="Tim">
+                <img src="img/held1.jpg" alt="Juice">
                 <p>Juice WRLD is een van de grootste artiesten op de wereld en is Overleden: 8 december 2019</p>
             </figure>
         </section>
-        <section id="sarah">
+        <section id="Ten">
             <h3>XXXTENTACTION</h3>
             <figure class="portret">
-                <img src="img/held2.jpg" alt="Sarah">
+                <img src="img/held2.jpg" alt="Ten">
                 <figcaption>XXXTENTACTION is bekend om zijn Low vibe muziek en is Overleden: 18 juni 2018</figcaption>
             </figure>
         </section>
-        <section id="johan">
+        <section id="Mac">
             <h3>Mac miller</h3>
             <figure class="portret">
-                <img src="img/held3.jpg" alt="Johan">
+                <img src="img/held3.jpg" alt="Mac">
                 <figcaption>Mac miller staat bekend om zijn relate met Ariana Grande en is Overleden: 7 september 2018</figcaption>
             </figure>
         </section>
-        <section id="klara">
+        <section id="Michael">
             <h3>Michael Jackson</h3>
             <figure class="portret">
-                <img src="img/held4.jpg" alt="Klara">
+                <img src="img/held4.jpg" alt="Michael">
                 <figcaption>Michael Jackson staat bekend als The king of pop en is Overleden: 25 juni 2009</figcaption>
             </figure>
         </section>
+
     </main>
-
-    <h3></h3>
-<div class="testbutton">
-    <p>Naam: <input type="text" id="test" placeholder="Je naam"></p>
-    <button>Submit</button>
-</div>
-
-    <footer>
-        <!-- <span class="validator">
-            <a href="http://validator.w3.org/check?uri=referer" target="_blank">
-                <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
-            <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
-                <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
-            </a>            
-        </span> -->
-    </footer>
-    <script src="js/myJQUERY.js"></script>
-    <script src="js/mijnHelden.js"></script>
+    <button onclick="not1()" class="button">NotifIt! 1 (Default position, Success)</button>
 </body>
+<script src="js/myJQUERY.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/Simple-Easy-jQuery-Notification-Plugin-NotifIt/notifIt/js/notifIt.js"></script>
+<link rel="stylesheet" type="text/css" href="js/Simple-Easy-jQuery-Notification-Plugin-NotifIt/notifIt/css/notifIt.css">
+<script src="js/mijnHelden.js"></script>
 </html>
